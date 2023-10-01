@@ -10,7 +10,7 @@ function NewsApi() {
   const itemsPerPage = 6;
 
   const GETNEWSAPI =
-    "https://newsapi.org/v2/everything?q=tesla&from=2023-08-06&sortBy=publishedAt&apiKey=b6cd6cb6df3d430eb7ce51dc729bacb3";
+    "https://newsapi.org/v2/everything?q=tesla&from=2023-09-01&sortBy=publishedAt&apiKey=b6cd6cb6df3d430eb7ce51dc729bacb3";
 
   async function getNews() {
     const response = await axios.get(GETNEWSAPI);
